@@ -1,0 +1,35 @@
+* {
+    background-color:#000068;
+    font-family: 'Blaka', cursive;
+}
+
+
+body {
+    margin: 0 auto;
+}
+
+
+header {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+div.button {
+    align-items: center;
+    width: 55svh;
+    display: flex;
+}
+
+div.button:hover {
+    box-shadow: 10px 10px 5px lightblue;
+    cursor: pointer;
+    transition: 0.2s all;
+
+}
+
+
+h1 {
+    font-size: 75px;
+}
